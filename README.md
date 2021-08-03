@@ -5,9 +5,11 @@
 
 </div>
 
+## Description
+Just a simple flat, Blue theme
+
 ## Installing
 Move the theme file into your [BetterDiscord](https://betterdiscord.app) themes folder.
 
-## Description
-Just a simple Blue theme
+
 
