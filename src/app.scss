@@ -24,7 +24,6 @@ code{
 }
 .expandedFolderBackground-1cujaW{
     background-color: var(--background2);
-    /* border: 1px solid white; */
 }
 .folder-1hbNCn[aria-owns^="folder-items"]{
     background-color: var(--background3);
@@ -57,9 +56,8 @@ code{
     }
 }
 
-/* 
-    Member list Section 
-*/
+    // Member list Section 
+
 // span.roleColor-rz2vM0::after {
 //     content: "";
 //     background: currentColor;

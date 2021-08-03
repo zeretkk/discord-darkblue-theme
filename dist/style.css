@@ -12,9 +12,6 @@
   --black: 0, 0, 0;
 }
 
-/* 
-    Make it transparent for me
- */
 #app-mount .container-1D34oG,
 .app-2rEoOp,
 .bg-h5JY_x,
@@ -190,7 +187,6 @@ code {
 
 .expandedFolderBackground-1cujaW {
   background-color: var(--background2);
-  /* border: 1px solid white; */
 }
 
 .folder-1hbNCn[aria-owns^=folder-items] {
@@ -225,9 +221,6 @@ code {
   text-transform: uppercase;
 }
 
-/* 
-    Member list Section 
-*/
 .topSection-y3p-_D, .body-r6_QPy {
   background: var(--background2);
 }
@@ -245,7 +238,6 @@ code {
   border-top: white 1px solid;
 }
 
-/*Channels*/
 .modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
   background-color: #fff;
   border-radius: 4px 0 0 4px;
@@ -379,9 +371,6 @@ code {
   position: relative;
 }
 
-/* 
-    BD
- */
 .bd-addon-list .bd-addon-card {
   background: var(--background2);
 }
