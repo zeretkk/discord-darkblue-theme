@@ -1,0 +1,56 @@
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n{
+    background-color: #fff;
+    border-radius: 4px 0 0 4px;  
+}
+.modeSelected-346R90>.content-1x5b-n>a>.name-23GUGE{
+    color: #000;
+}
+.containerDefault--pIXnN.selected-3LIHYU{
+    position: relative;
+    $pseudo-offset: -8px;
+    &::after, &::before{
+        height: 10px;
+        width: 10px;
+        right: 0;
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        // --pseudo-offset: -8px;
+    }
+    &::after{
+        top: $pseudo-offset;
+    }
+    &::before{
+        bottom: $pseudo-offset;
+    }
+}
+
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90{
+    $pseudo-offset: -9px;
+    &::after, &::before{
+    height: 10px;
+    width: 10px;
+    right: 0;
+    content: '';
+    position: absolute;
+    z-index:999;
+    background-color: #171d51;
+    }
+    &::before{
+        bottom: $pseudo-offset;
+        border-top-right-radius: 1rem;
+    }
+    &::after{
+        top: $pseudo-offset;
+        border-bottom-right-radius: 1rem;
+    }
+}
+.users-3kndPl{
+    background: var(--background2) !important;
+}
+.total-i6us2n{
+    background: var(--background3) !important;
+}
+.total-i6us2n:after{
+    border-right-color: var(--background3);
+}

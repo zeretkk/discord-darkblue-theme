@@ -1,0 +1,88 @@
+::placeholder, body, button, input, select, textarea {
+    font-family: var(--font);
+}
+*::-webkit-scrollbar-thumb{
+    background: white !important;
+    border-width: 1px;
+    width: 10px !important;
+}
+.inputDefault-_djjkz.input-cIJ7To.input-2_SIlA{
+    background: var(--background);
+}
+.theme-dark .root-1gCeng,.theme-light .root-1gCeng, .footer-2gL1pp, .lookFilled-22uAsw.select-2fjwPw,
+ .popout-VcNcHB, .feature-2w65J5, .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{
+    background: var(--background3) !important;
+}
+.option-3KoAJB:focus, .option-3KoAJB:hover{
+    background: var(--background2) !important;
+}
+.userPopout-xaxa6l, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .wrapper-39oAo3{
+    background: var(--background3);
+}
+code{
+    background: var(--background3) !important;
+}
+.expandedFolderBackground-1cujaW{
+    background-color: var(--background2);
+    /* border: 1px solid white; */
+}
+.folder-1hbNCn[aria-owns^="folder-items"]{
+    background-color: var(--background3);
+}
+.tutorialContainer-30WoTp + div {
+    display:none
+}
+.wordmarkWindows-1v0lYD {
+    display: none;
+  }
+  .titleBar-AC4pGV{
+      &:not(.typeMacOS-3EmCyP){
+        margin: 0;
+        padding: 5px 0;
+        background-color: rgba(0, 0, 0, .50) !important;
+        &::after{
+            content: "bluecord";
+            position: absolute;
+            top: 5px;
+            left: 10px;
+            color: var(--brand-experiment);
+            display: block;
+            height: 16px;
+            width: fit-content;
+            pointer-events: none;
+            font-size: 14px;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/* 
+    Member list Section 
+*/
+// span.roleColor-rz2vM0::after {
+//     content: "";
+//     background: currentColor;
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     opacity: 0.15;
+//     left: 0;
+//     top: 0;
+// } 
+.topSection-y3p-_D, .body-r6_QPy{
+    background: var(--background2);
+}
+.membersGroup-v9BXpm.container-2ax-kl{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tabBarItem-3dfX8P.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{
+    &[role="tab"]{
+        padding: 0 10px;
+    }
+}
+
+.panels-j1Uci_{
+    border-top: white 1px solid;
+}

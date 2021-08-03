@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --background: rgb(18, 24, 87);
+    --background2: rgb(6, 11, 65);
+    --background3: rgb(1, 5, 46);
+    --chat-transp: 0;
+    --sides-transp: .2;
+    --sides-blur: 5px;
+    --font: 'Roboto Slab', serif;;
+    --accent: 165, 238, 255;
+    --white: 255, 255, 255;
+    --black: 0, 0, 0;
+}
+/* 
+    Make it transparent for me
+ */
+
+
+@import 'transparent';
+@import 'defaults';
+@import 'app';
+/*Channels*/
+@import 'channels';
+@import 'chat';
+@import 'dm';
+@import 'settings';
