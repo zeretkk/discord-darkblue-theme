@@ -4,6 +4,7 @@
   "description": "dark blue theme for BetterDiscord",
   "main": "style.css",
   "scripts": {
+    "clean": "gulp clean",
     "build": "gulp build"
   },
   "repository": {
