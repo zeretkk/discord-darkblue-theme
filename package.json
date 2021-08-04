@@ -5,7 +5,8 @@
   "main": "style.css",
   "scripts": {
     "clean": "gulp clean",
-    "build": "gulp build"
+    "build": "gulp build",
+    "auto": "gulp"
   },
   "repository": {
     "type": "git",
